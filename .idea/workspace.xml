@@ -64,12 +64,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="8" />
-          <entry key="java" value="623" />
+          <entry key="java" value="843" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="623" />
+          <entry key="JAVA" value="843" />
           <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
@@ -96,19 +96,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tws/model/EmployeeResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/tws/mapper/EmployeeMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+            <state relative-caret-position="186">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/tws/controller/EmployeeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+            <state relative-caret-position="148">
+              <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#355#356#0" expanded="true" />
@@ -129,6 +120,8 @@
                 <element signature="e#641#642#0" expanded="true" />
                 <element signature="e#750#751#0" expanded="true" />
                 <element signature="e#798#799#0" expanded="true" />
+                <element signature="e#886#887#0" expanded="true" />
+                <element signature="e#915#916#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -528,8 +521,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/tws/model/EmployeeResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/tws/model/Employee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tws/controller/EmployeeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/tws/mapper/EmployeeMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tws/controller/EmployeeController.java" />
       </list>
     </option>
   </component>
@@ -548,10 +541,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="70" />
-    <option name="y" value="17" />
-    <option name="width" value="1837" />
-    <option name="height" value="1030" />
+    <option name="x" value="177" />
+    <option name="y" value="55" />
+    <option name="width" value="1518" />
+    <option name="height" value="867" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -634,7 +627,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567051397599" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567062474820" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -671,15 +664,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567040436708</updated>
-      <workItem from="1567040442228" duration="7441000" />
+      <workItem from="1567040442228" duration="8623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7441000" />
+    <option name="totallyTimeSpent" value="8623000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="14" width="1469" height="824" extended-state="0" />
+    <frame x="142" y="44" width="1214" height="693" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -688,7 +681,7 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20269312" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24740484" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.32947975" />
       <window_info anchor="bottom" id="Spring" />
@@ -700,7 +693,7 @@
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32947975" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3030303" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -783,10 +776,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tws/mapper/EmployeeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tws/controller/EmployeeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+        <state relative-caret-position="148">
+          <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#355#356#0" expanded="true" />
@@ -795,16 +798,8 @@
             <element signature="e#641#642#0" expanded="true" />
             <element signature="e#750#751#0" expanded="true" />
             <element signature="e#798#799#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tws/mapper/EmployeeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -16,4 +16,7 @@ public interface EmployeeMapper {
     @Update("update employee set name = #{employee.name}, age = #{employee.age} where id = #{employee.id}")
     void updateEmployee(@Param("employee")Employee employee);
 
+    @Delete("delete from employee where id = #{id}")
+    void deleteEmployee(@Param("id") int id);
+
 }

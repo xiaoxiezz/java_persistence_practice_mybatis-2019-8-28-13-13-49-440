@@ -28,4 +28,9 @@ public class EmployeeController {
     public void updateEmployee(@RequestBody Employee employee){
        employeeMapper.updateEmployee(employee);
     }
+
+    @DeleteMapping(value = "/{id}")
+    public void deleteEmployee(@PathVariable("id") int id){
+        employeeMapper.deleteEmployee(id);
+    }
 }
