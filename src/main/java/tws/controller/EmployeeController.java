@@ -23,4 +23,9 @@ public class EmployeeController {
     public List<Employee> searchEmployee(){
         return employeeMapper.searchEmployees();
     }
+
+    @PutMapping
+    public void updateEmployee(@RequestBody Employee employee){
+       employeeMapper.updateEmployee(employee);
+    }
 }
