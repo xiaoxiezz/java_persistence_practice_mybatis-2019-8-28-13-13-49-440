@@ -1,12 +1,12 @@
 package tws.controller;
 
+import org.springframework.beans.factory.ListableBeanFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import tws.mapper.EmployeeMapper;
 import tws.model.Employee;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/employees")
@@ -17,5 +17,10 @@ public class EmployeeController {
     @PostMapping
     public void addEmployees(@RequestBody Employee employee){
         employeeMapper.insertEmployee(employee);
+    }
+
+    @GetMapping
+    public List<Employee> searchEmployee(){
+        return employeeMapper.searchEmployees();
     }
 }
